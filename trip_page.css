@@ -1,0 +1,127 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-div{
+   width: 1500px;
+   height: 800px;
+}
+
+.head-hr{
+    border: none;
+    border-top: 3px solid #b9b3b3;
+    color: black;
+    overflow: visible;
+    text-align: center;
+    height: 50px;
+    width: 700px;
+    margin-top: 100px;
+}
+
+.head-hr:after {
+    background: #fff;
+    content: 'Trip To Paris';
+    font-size: 50px;
+    font-weight: 700;
+    padding: 5px 5px;
+    position: relative;
+    top: -30px;
+}
+
+#trip-icon{
+    color: red;
+    margin-left: 700px;
+    text-decoration: none;
+}
+
+#back{
+    display: inline;
+    font-size: 35px;
+    margin-left:10px;
+    margin-top: 0px;
+    color: silver;
+}
+
+
+.trip{
+    border: 1px solid red;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    font-size: 23px;
+    box-shadow: 8px 8px 10px rgb(197, 196, 196);
+    margin: 50px;
+    margin-top: 50px;
+    position: absolute;
+    left: 500px;
+}
+
+.trip-head{
+    color: red; 
+    font-size: 26px;   
+}
+
+.trip-hr{
+    margin-left: 60px;
+    border-top: 1px solid rgb(92, 90, 90);
+}
+
+.trip-p1{
+    padding-left: 30px;
+    color: red;
+    text-decoration: line-through;
+}
+
+#icon{
+    color: red;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+input.trip-p2{
+    width: 20px;
+    height: 20px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 360px){
+
+     #main-div{
+       width: 360px;
+       height: 0px;
+    }
+
+    .head-hr{
+        border-top: none;
+    }
+
+    .head-hr:after {
+        font-size: 35px;
+    }
+
+    #trip-icon{
+        position: absolute;
+        top: 60px;
+        right: 120px;
+    }
+
+    #back{
+        display: none;
+    }
+
+
+    .trip{
+        height: 400px;
+        width: 250px;
+        margin: 0px;
+        margin-top: 0px;
+        position: absolute;
+        left: 250px;
+    }
+
+
+}
+
+
